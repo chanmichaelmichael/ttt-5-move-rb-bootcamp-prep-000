@@ -11,6 +11,6 @@ def input_to_index(move)
   move = move.strip.chomp.to_i - 1 #convert to integer
 end
 
-def move(board,position,character)
+def move(board,position,character="X")
   board[position] = character
 end
