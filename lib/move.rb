@@ -8,8 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(move)
-  move = move.strip.chomp
-  move = Integer(move) - 1 #convert to integer
+  move = move.strip.chomp.to_i - 1 #convert to integer
 end
 
 def move(board,position,character)
