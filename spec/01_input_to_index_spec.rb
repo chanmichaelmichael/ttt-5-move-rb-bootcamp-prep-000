@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+
 require_relative "../lib/move.rb"
 
 describe '#input_to_index' do
